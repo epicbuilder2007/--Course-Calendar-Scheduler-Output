@@ -33,7 +33,7 @@ def main():
         lesson_days.sort()
 
         print(f'/// {course_code} ///')
-        lecture_style = input(f'Enter the day of the week for lectures ({lesson_days[0]}/{lesson_days[1]}/Both/none): ')
+        lecture_style = input(f'Enter the day of the week for lectures ({"/".join(map(lambda a: str(a+1), lesson_days))}/Both/none): ')
 
 
         if lecture_style == "Both" or lecture_style == "both" or lecture_style == "":
