@@ -1,4 +1,4 @@
-# HKU-Calendar-Takeout
+# Course Calendar Scheduler Output
 
 This little python script makes the life of a HKU student easier. You can copy-paste course timetable to your calendar client that supports import via `.ics`. 
 
